@@ -149,8 +149,6 @@ nav ul li a:hover {
     color: #f0f0f0; 
 }
 
-  
-  /* Contact Form Section */
   .contact-form {
     background-color: #fff;
     padding: 30px;
@@ -167,7 +165,6 @@ nav ul li a:hover {
     color: #333;
   }
   
-  /* Form Elements */
   form {
     display: flex;
     flex-direction: column;
@@ -209,17 +206,10 @@ nav ul li a:hover {
     background-color: #333;
   }
   
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9; /* Umumiy fon rangi */
-  }
-  
   .projects-section {
     text-align: center;
     padding: 40px 20px;
-    background-color: #fff; /* Loyihaning bo'lim fon rangi */
+    background-color: #fff; 
   }
   
   .projects-section h2 {
@@ -237,24 +227,24 @@ nav ul li a:hover {
   
   .project-card {
     background-color: #fff;
-    border: 1px solid #ddd; /* Kartkaning chegarasi */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Kartka soyasi */
-    border-radius: 8px; /* Kartka burchaklarini yumaloqlash */
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
     overflow: hidden;
     width: 300px;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effekt */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
   }
   
   .project-card:hover {
-    transform: translateY(-5px); /* Hoverda yuqoriga ko'tariladi */
+    transform: translateY(-5px); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   }
   
   .project-card img {
-    width: 100%; /* Tasvir kengligi kartkani qoplaydi */
+    width: 100%;
     height: 180px;
-    object-fit: cover; /* Tasvirni joylashtirish */
+    object-fit: cover; 
   }
   
   .project-card h3 {
@@ -278,4 +268,4 @@ nav ul li a:hover {
   .project-card button:hover {
     background-color: #555;
   }
-  
+    
