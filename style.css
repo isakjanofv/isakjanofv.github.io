@@ -149,7 +149,9 @@ nav ul li a:hover {
     color: #f0f0f0; 
 }
 
-  .contact-form {
+
+
+.contact-form {
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
@@ -268,3 +270,38 @@ nav ul li a:hover {
   .project-card button:hover {
     background-color: #555;
   }
+
+  .projects-section {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .projects-section h2 {
+    color: #007acc;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .projects-section a {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    background-color: #007acc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .projects-section a:hover {
+    background-color: #005f99;
+    transform: scale(1.05);
+  }
+  
+  .projects-section a:active {
+    background-color: #004d80;
+  }
+  
